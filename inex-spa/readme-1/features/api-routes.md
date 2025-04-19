@@ -1,44 +1,85 @@
 # API Routes
 
-Now, API Routes has been released.
+## RequestTypeAPI Routes
 
-## Why Use It?
+The INEX SPA framework now supports **RequestTypeAPI Routes**, a specialized form of API routing optimized for clean and lightweight API responses without loading additional JavaScript resources. This feature is ideal for building APIs and backend services efficiently within your INEX SPA application.
 
-You can use API Routes for API and BackEnd of website. because our Framework parse his JS Files into it
+***
 
-## Example
+### 🚀 Why Use RequestTypeAPI Routes?
 
-### Create web/test\_request\_GET.ahmed.php
+By default, standard route files in INEX SPA load several JavaScript and CSS assets automatically to support frontend functionality. While this is great for full pages, it's unnecessary for API responses, where clean JSON output is expected.
+
+**RequestTypeAPI Routes** solve this by:
+
+* Disabling the automatic loading of JS/CSS assets.
+* Returning pure JSON responses.
+* Enhancing performance for frontend consumers (AJAX, Fetch API, mobile apps, etc).
+
+***
+
+### 📂 File Naming Convention
+
+RequestTypeAPI Route files follow this pattern:
+
+```
+[route]_request_[METHOD]_api.ahmed.php
+```
+
+Where:
+
+* `[route]` is your route name (e.g., `test2`).
+* `[METHOD]` is the HTTP method (`GET`, `POST`, etc).
+* The `_api` suffix distinguishes it from standard `RequestType` routes.
+
+***
+
+### ✨ Creating a RequestTypeAPI Route
+
+You can easily generate a RequestTypeAPI route using the CLI command:
 
 ```bash
 php ammar make:route
 ```
 
-Then Select
+Then follow the prompts:
 
-* 1- test
-* 2- no
-* 3- GET
-* no
+1. **Enter the route name:** `test2`
+2. **Is it dynamic?** `no`
+3. **Select request type:** `GET`
+4. **Is this an API Route?** `yes`
 
-This will be create a `RequestType` Route (normally)
+This will create a file named:
 
-* Add this code into this file
+```
+web/test2_request_GET_api.ahmed.php
+```
+
+***
+
+### 🧑‍💻 Example Code
+
+Edit the generated file and add the following:
 
 ```php
 <?php
-// web/test_request_GET.ahmed.php
+// web/test2_request_GET_api.ahmed.php
+
 // Set the content type to application/json
 header('Content-Type: application/json');
 
-// Define your data
+// Define your API data
 $data = ["ammar" => 24];
 
-// Return it as JSON
+// Output as JSON
 echo json_encode($data);
 ```
 
-Now, when you open in browser or fetch, you will be see like this in response:
+***
+
+### 📊 Response Comparison
+
+#### 🧪 Standard RequestType Route:
 
 ```html
 <script src='http://localhost/JS/getWEBSITEURLValue.js'></script>
@@ -53,42 +94,20 @@ Now, when you open in browser or fetch, you will be see like this in response:
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>{"ammar":24}
 ```
 
-Because this is thinking this is a normal page but when use API Routes.
+#### ✅ RequestTypeAPI Route:
 
-### Create web/test\_request\_GET\_api.ahmed.php
-
-```bash
-php ammar make:route
-```
-
-Then Select
-
-* 1- test2
-* 2- no
-* 3- GET
-* yes
-
-This will be create a `RequestTypeAPI` Route
-
-* Add this code into this file
-
-```php
-<?php
-// web/test2_request_GET_api.ahmed.php
-// Set the content type to application/json
-header('Content-Type: application/json');
-
-// Define your data
-$data = ["ammar" => 24];
-
-// Return it as JSON
-echo json_encode($data);
-```
-
-Now, when you open in browser or fetch, you will be see like this in response:
-
-```html
+```json
 {"ammar":24}
 ```
 
-Because Now, this is know this is API Page.
+***
+
+### 📘 Summary
+
+**RequestTypeAPI Routes** provide a clean, minimal, and efficient way to build APIs inside INEX SPA. They are especially useful for frontend frameworks, mobile apps, and AJAX calls where only the raw data is needed without additional JS dependencies.
+
+Make sure to use the `_api` suffix in your route file name to activate this mode.
+
+***
+
+Happy Coding with INEX SPA! ⚡
