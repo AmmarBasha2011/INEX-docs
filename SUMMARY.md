@@ -132,6 +132,7 @@
       * [db folder](inex-spa/readme-1/framework-structure/user-folders/db-folder.md)
       * [layouts folder](inex-spa/readme-1/framework-structure/user-folders/layouts-folder.md)
   * [Features](inex-spa/readme-1/features/README.md)
+    * [API Routes](inex-spa/readme-1/features/api-routes.md)
     * [Auth](inex-spa/readme-1/features/auth/README.md)
       * [How to use?](inex-spa/readme-1/features/auth/how-to-use.md)
       * [Start Use](inex-spa/readme-1/features/auth/start-use/README.md)
