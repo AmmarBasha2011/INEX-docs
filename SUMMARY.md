@@ -253,6 +253,7 @@
 ***
 
 * [Changelog](changelog/README.md)
+  * [v5.0](changelog/v5.0.md)
   * [v5](changelog/v5.md)
   * [v4.9.3](changelog/v4.9.3.md)
   * [v4.9.1](changelog/v4.9.1.md)
