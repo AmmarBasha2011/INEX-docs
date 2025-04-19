@@ -5,6 +5,7 @@
 ## INEX SPA
 
 * [INEX SPA Documentation](inex-spa/readme-1/README.md)
+  * [INEX SPA Helper](inex-spa/readme-1/inex-spa-helper.md)
   * [INEX Blog](inex-spa/readme-1/inex-blog.md)
   * [Installation](inex-spa/readme-1/installation/README.md)
     * [Using Git](inex-spa/readme-1/installation/using-git.md)
