@@ -1,5 +1,7 @@
 # API Routes
 
+<figure><img src="../../../.gitbook/assets/ChatGPT Image Apr 19, 2025, 01_23_40 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## RequestTypeAPI Routes
 
 The INEX SPA framework now supports **RequestTypeAPI Routes**, a specialized form of API routing optimized for clean and lightweight API responses without loading additional JavaScript resources. This feature is ideal for building APIs and backend services efficiently within your INEX SPA application.
