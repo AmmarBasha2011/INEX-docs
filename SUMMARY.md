@@ -1,11 +1,11 @@
 # Table of contents
 
 * [🚀 INEX Team Documentation 💡🌍](README.md)
+* [INEX Blog](inex-blog.md)
 
 ## INEX SPA
 
 * [INEX SPA Helper](inex-spa/inex-spa-helper.md)
-* [INEX Blog](inex-spa/inex-blog.md)
 * [Installation](inex-spa/installation/README.md)
   * [Using Git](inex-spa/installation/using-git.md)
   * [Manual Download](inex-spa/installation/manual-download.md)
