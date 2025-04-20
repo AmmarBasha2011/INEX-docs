@@ -3,7 +3,6 @@
 * [🚀 INEX Team Documentation 💡🌍](README.md)
 * [INEX Blog](inex-blog.md)
 * [Contact Us](contact-us.md)
-* [Page](page.md)
 
 ## INEX SPA
 
@@ -272,6 +271,7 @@
   * [v2.12.39-beta.3](changelog/v2.12.39-beta.3.md)
   * [v1.1.3-beta.2](changelog/v1.1.3-beta.2.md)
   * [v1.0-beta.1](changelog/v1.0-beta.1.md)
+* [INEX SPA Roadmap](inex-spa-roadmap.md)
 
 ## About me
 
