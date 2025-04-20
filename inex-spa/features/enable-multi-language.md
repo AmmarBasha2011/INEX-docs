@@ -1,5 +1,7 @@
 # Enable Multi Language
 
+<figure><img src="../../.gitbook/assets/ChatGPT Image Apr 20, 2025, 06_26_02 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+
 You can enable multi languages in your website:
 
 * 1- update .env:

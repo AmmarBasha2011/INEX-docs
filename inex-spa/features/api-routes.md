@@ -1,6 +1,6 @@
 # API Routes
 
-<figure><img src="../../../.gitbook/assets/ChatGPT Image Apr 19, 2025, 01_23_40 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ChatGPT Image Apr 19, 2025, 01_23_40 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## RequestTypeAPI Routes
 

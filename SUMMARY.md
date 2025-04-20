@@ -2,6 +2,8 @@
 
 * [🚀 INEX Team Documentation 💡🌍](README.md)
 * [INEX Blog](inex-blog.md)
+* [Contact Us](contact-us.md)
+* [Page](page.md)
 
 ## INEX SPA
 
