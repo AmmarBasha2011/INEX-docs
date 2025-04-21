@@ -211,6 +211,7 @@
   * [Use library](inex-spa/libraries/use-library/README.md)
     * [Example 1](inex-spa/libraries/use-library/example-1.md)
 * [Notes](inex-spa/notes/README.md)
+  * [Use ""](inex-spa/notes/use.md)
   * [Delete Docs files](inex-spa/notes/delete-docs-files.md)
   * [Should name .ahmed.php](inex-spa/notes/should-name-.ahmed.php.md)
   * [Don't delete JS & errors folder](inex-spa/notes/dont-delete-js-folder.md)
