@@ -137,6 +137,7 @@
     * [db folder](inex-spa/framework-structure/user-folders/db-folder.md)
     * [layouts folder](inex-spa/framework-structure/user-folders/layouts-folder.md)
 * [Features](inex-spa/features/README.md)
+  * [Built-in Motion Engine Feature](inex-spa/features/built-in-motion-engine-feature.md)
   * [Auto Image Optimization (Beta) Feature](inex-spa/features/auto-image-optimization-beta-feature.md)
   * [Development Error Overlay Feature](inex-spa/features/development-error-overlay-feature.md)
   * [CronJob Feature](inex-spa/features/cronjob-feature.md)
