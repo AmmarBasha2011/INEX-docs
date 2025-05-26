@@ -121,6 +121,7 @@
   * [Section Management Directives](inex-spa/ahmed-template/section-management-directives.md)
   * [Other functions calling](inex-spa/ahmed-template/other-functions-calling.md)
 * [Features](inex-spa/features/README.md)
+  * [Built-in Motion Engine (Beta)](inex-spa/features/built-in-motion-engine-beta.md)
   * [API Routes](inex-spa/features/api-routes.md)
   * [Auth](inex-spa/features/auth/README.md)
     * [How to use?](inex-spa/features/auth/how-to-use.md)
