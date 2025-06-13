@@ -124,6 +124,7 @@
   * [Section Management Directives](inex-spa/ahmed-template/section-management-directives.md)
   * [Other functions calling](inex-spa/ahmed-template/other-functions-calling.md)
 * [Features](inex-spa/features/README.md)
+  * [PWA Feature (Beta)](inex-spa/features/pwa-feature-beta.md)
   * [Cronjob Management](inex-spa/features/cronjob-management.md)
   * [Built-in Motion Engine (Beta)](inex-spa/features/built-in-motion-engine-beta.md)
   * [API Routes](inex-spa/features/api-routes.md)
@@ -227,7 +228,7 @@
   * [Development](inex-spa/best-practices/development.md)
   * [Database](inex-spa/best-practices/database.md)
   * [Maintenance](inex-spa/best-practices/maintenance.md)
-* [MIT License](inex-spa/license.md)
+* [Apache License](inex-spa/license.md)
 * [Security Policy](inex-spa/security.md)
 * [Repository](inex-spa/repository.md)
 * [Star History](inex-spa/star-history.md)
@@ -249,6 +250,7 @@
 ***
 
 * [Changelog](changelog/README.md)
+  * [v5.2](changelog/v5.2.md)
   * [v5.0](changelog/v5.0.md)
   * [v5](changelog/v5.md)
   * [v4.9.3](changelog/v4.9.3.md)
