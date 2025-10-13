@@ -124,6 +124,8 @@
   * [Section Management Directives](inex-spa/ahmed-template/section-management-directives.md)
   * [Other functions calling](inex-spa/ahmed-template/other-functions-calling.md)
 * [Features](inex-spa/features/README.md)
+  * [SecurityV2 Class Reference](inex-spa/features/securityv2-class-reference.md)
+  * [INEX DevTools](inex-spa/features/inex-devtools.md)
   * [PWA Feature (Beta)](inex-spa/features/pwa-feature-beta.md)
   * [Cronjob Management](inex-spa/features/cronjob-management.md)
   * [Built-in Motion Engine (Beta)](inex-spa/features/built-in-motion-engine-beta.md)
