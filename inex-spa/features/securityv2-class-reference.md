@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # SecurityV2 Class Reference
 
 The `SecurityV2` class provides a comprehensive set of static methods to enhance the security of your INEX SPA application. To use it, ensure `USE_SECURITY=true` is set in your `.env` file.

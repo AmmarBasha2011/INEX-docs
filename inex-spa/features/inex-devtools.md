@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # INEX DevTools
 
 The INEX SPA framework includes a built-in debug bar for development environments, providing valuable insights into your application's performance and structure.
