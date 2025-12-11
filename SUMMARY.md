@@ -271,6 +271,19 @@
   * [v1.1.3-beta.2](changelog/v1.1.3-beta.2.md)
   * [v1.0-beta.1](changelog/v1.0-beta.1.md)
 
+## INEX Python Library
+
+* [Docs](inex-python-library/docs.md)
+* [License](inex-python-library/license.md)
+* [Link](inex-python-library/link.md)
+
+## INEX Python JSON Database Library
+
+* [Docs](inex-python-json-database-library/docs.md)
+* [License](inex-python-json-database-library/license.md)
+* [Security Policy](inex-python-json-database-library/security-policy.md)
+* [Link](inex-python-json-database-library/link.md)
+
 ## About me
 
 * [Who am I?](about-me/who-am-i.md)
@@ -281,3 +294,7 @@
   * ["Use Cache, More Faster"](about-me/quotes/use-cache-more-faster.md)
   * ["Use Framework, Do More Without More Time"](about-me/quotes/use-framework-do-more-without-more-time.md)
   * ["Use Translate, Over World"](about-me/quotes/use-translate-over-world.md)
+
+***
+
+* [inex-library · PyPI](inex-library-pypi.md)
